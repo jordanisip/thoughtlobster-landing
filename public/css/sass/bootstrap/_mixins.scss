@@ -244,7 +244,7 @@
 }
 
 // Drop shadows
-@mixin box-shadow($shadow...) { 
+@mixin box-shadow($shadow...) {
   -webkit-box-shadow: $shadow;
      -moz-box-shadow: $shadow;
           box-shadow: $shadow;
@@ -278,6 +278,7 @@
        -o-transform: rotate($degrees);
           transform: rotate($degrees);
 }
+
 @mixin scale($ratio) {
   -webkit-transform: scale($ratio);
      -moz-transform: scale($ratio);
@@ -305,6 +306,14 @@
      -moz-transform: translate3d($x, $y, $z);
        -o-transform: translate3d($x, $y, $z);
           transform: translate3d($x, $y, $z);
+}
+
+@mixin transform-origin($value){
+  transform-origin: $value;
+  -ms-transform-origin: $value;
+  -webkit-transform-origin: $value;
+  -moz-transform-origin: $value;
+  -o-transform-origin: $value;
 }
 
 // Backface visibility
