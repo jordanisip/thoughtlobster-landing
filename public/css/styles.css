@@ -5424,7 +5424,9 @@ body {
   background-image: -o-linear-gradient(top, #24b2e0, #1da2cd);
   background-image: linear-gradient(to bottom, #24b2e0, #1da2cd);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF24B2E0', endColorstr='#FF1DA2CD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF24B2E0', endColorstr='#FF1DA2CD', GradientType=0); }
+
+.container {
   color: white;
   padding: 50px;
   text-align: center; }
