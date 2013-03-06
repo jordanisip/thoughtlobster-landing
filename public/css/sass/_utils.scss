@@ -1,0 +1,23 @@
+@import "bootstrap/mixins.scss";
+
+@mixin circle($value) {
+  width: $value;
+  height: $value;
+  line-height: $value;
+  @include border-radius($value);
+}
+
+@mixin inline-block {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+@mixin remove-inline-block-spacing {
+  margin-left: -4px;
+}
+
+@mixin unstyled-list {
+  margin: 0;
+  list-style: none;
+}
