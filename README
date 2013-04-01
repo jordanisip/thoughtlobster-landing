@@ -1,9 +1,1 @@
-Starting point for working on small static sites built on top of Rack so it can be hosted for free on Heroku.
-
-More info: https://devcenter.heroku.com/articles/static-sites-ruby. Has this initial static page setup along with SASS, Bootstrap 2.3.1, and Font Awesome 3.0.2
-
-Demo: http://peaceful-brushlands-2666.herokuapp.com
-
-Other sites that used this as a starting point:
-https://github.com/jordanisip/kilimovie (http://kilimovie.com)
-https://github.com/jordanisip/jordanisip (http://jordanisip.com)
+Source for temporary landing page at thoughtlobster.com. Starting point based on https://github.com/jordanisip/static-rack-sass.

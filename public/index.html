@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
-		<title>Site Title</title>
+		<title>Unmuzzle Your Puzzle - Coming Soon - ThoughtLobster</title>
 
 		<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@fixie">
-    <meta name="twitter:url" content="http://www.jordanisip.com">
-    <meta name="twitter:title" content="Site Title">
-    <meta name="twitter:description" content="Site Description">
-    <meta name="twitter:image" content="http://www.jordanisip.com/img/logo.png">
-    <meta name="twitter:image:width" content="130">
-    <meta name="twitter:image:height" content="130">
+    <meta name="twitter:creator" content="@thoughtlobster">
+    <meta name="twitter:url" content="http://www.thoughtlobster.com">
+    <meta name="twitter:title" content="ThoughtLobster">
+    <meta name="twitter:description" content="Daily Puzzles and Giveaways at ThoughtLobster.com">
+    <meta name="twitter:image" content="img/thoughtlobster-icon.png">
+    <meta name="twitter:image:width" content="200">
+    <meta name="twitter:image:height" content="200">
 
 		<link rel="author" href="Jordan Isip (@fixie) - http://jordanisip.com">
 
@@ -19,10 +19,34 @@
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 	</head>
 
-<body>
+<body class="landing">
   <div class="container">
-    <h1><i class="icon-beaker"></i></h1>
-    <p>This is the body</p>
+    <div class="logo">
+      <img src="img/logo.png" alt="ThoughtLobster">
+    </div>
+
+    <h1>Unmuzzle Your Puzzle</h1>
+
+    <h2>Daily Puzzles and Giveaways Coming Soon</h2>
+    <p>
+      The "<a href="https://www.tanga.com/daily-fun" target="_blank">Daily Fun</a>"
+      section on <a href="http://www.tanga.com">Tanga</a> will soon become ThoughtLobster!
+      Join our newsletter below and be the first to know when we launch!
+    </p>
+
+    <form id="newsletter">
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="E-Mail Address">
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary btn-large">Get Updates</button>
+      </div>
+    </form>
+
+    <h3>Follow Our Progress on:</h3>
+    <ul class="social-links">
+      <li><a href="http://twitter.com/thoughtlobster"><i class="icon-twitter"></i></a></li>
+      <li><a href="http://facebook.com/thoughtlobster"><i class="icon-facebook"></i></a></li>
+    </ul>
   </div>
 
   <!-- JavaScripts
@@ -32,8 +56,18 @@
 
 	<!-- Analytics
   ================================================== -->
-  <script>
-	// analytics code goes here
+	<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39779709-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
   </script>
 </body>
 </html>

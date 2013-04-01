@@ -1,1 +1,52 @@
-$blue: #24b2e0;
+$background: #f6f7f8;
+
+$red: #C0392B;
+$pink: #E74C3C;
+$orange: #e9872e;
+$brown: #27AE60;
+$green: #60c4b0;
+$green-dark: #37b8a6;
+$blue: #3498DB;
+$purple: #8e57a5;
+$yellow: #e0b84b;
+
+$gray-darker: #111;
+$gray-dark: #333;
+$gray: #7F8C8D;
+$gray-light: #BDC3C7;
+$gray-lighter: #edeeed;
+
+$text-color: $gray-dark;
+$quiet-text-color: darken($gray-light, 10%);
+
+$link-color: darken($orange, 2%);
+$link-visited-color: lighten($orange, 10%);
+$link-hover-color: darken($orange, 15%);
+$border-color: darken($background, 8%);
+
+$notice-color: $purple;
+$error-color: $red;
+$success-color: $green;
+
+$btn-primary-background: $pink;
+$btn-primary-background-highlight: darken($btn-primary-background, 5%);
+
+$base-font-size: 13px;
+$base-line-height: 18px;
+
+// Temp: Bootstrap 3 is changing their variables to use dashes instead of camelcase.
+// Once we upgrade to Bootstrap 3, the above varaibles will override the bootstrap variables correctly.
+
+$linkColor: $link-color;
+$textColor: $text-color;
+
+$btnPrimaryBackground: $btn-primary-background;
+$btnPrimaryBackgroundHighlight: $btn-primary-background-highlight;
+
+$baseFontSize: $base-font-size;
+$baseLineHeight: $base-line-height;
+
+$grayDarker: $gray-darker;
+$grayDark: $gray-dark;
+$grayLight: $gray-light;
+$grayLighter: $gray-lighter;

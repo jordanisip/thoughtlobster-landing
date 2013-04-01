@@ -1,4 +1,5 @@
 // Core variables and mixins
+
 @import "variables"; // Modify this for custom colors, font-sizes, etc
 @import "mixins";
 
@@ -29,24 +30,24 @@
 @import "alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
 
 // Components: Nav
-@import "navs";
-@import "navbar";
-@import "breadcrumbs";
-@import "pagination";
-@import "pager";
+//@import "navs";
+//@import "navbar";
+//@import "breadcrumbs";
+//@import "pagination";
+//@import "pager";
 
 // Components: Popovers
-@import "modals";
-@import "tooltip";
-@import "popovers";
+//@import "modals";
+//@import "tooltip";
+//@import "popovers";
 
 // Components: Misc
-@import "thumbnails";
-@import "labels-badges";
-@import "progress-bars";
-@import "accordion";
-@import "carousel";
-@import "hero-unit";
+//@import "thumbnails";
+//@import "labels-badges";
+//@import "progress-bars";
+//@import "accordion";
+//@import "carousel";
+//@import "hero-unit";
 
 // Font Awesome
 @import "font-awesome";
