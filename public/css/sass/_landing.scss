@@ -47,6 +47,11 @@
     }
   }
 
+  p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
   .social-links {
     @include unstyled-list;
     li {
