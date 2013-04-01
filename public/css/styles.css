@@ -3758,6 +3758,9 @@ a.btn:visited {
     @media all and (max-width: 480px) {
       .landing input[type="text"], .landing input[type="email"] {
         width: 80%; } }
+  .landing p {
+    font-size: 14px;
+    line-height: 23px; }
   .landing .social-links {
     margin: 0;
     list-style: none; }
