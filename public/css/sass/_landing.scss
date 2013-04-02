@@ -68,6 +68,7 @@
       background: $green-dark;
       text-align: center;
       @include transition(background 0.2s linear);
+      line-height: 38px;
       &:hover {
         background: darken($green-dark, 5%);
       }
