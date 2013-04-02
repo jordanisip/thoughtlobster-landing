@@ -1,6 +1,7 @@
 .landing {
   background: $green url("../img/landing-background.png") no-repeat right bottom;
   padding: 0 50px 0 50px;
+  @include proxima-nova-regular;
   @media all and (max-width: 480px) {
     padding: 0;
     background-position: 20px bottom;
@@ -20,12 +21,14 @@
     margin-bottom: 30px;
     text-shadow: 0px 3px 0px $green-dark;
     text-transform: uppercase;
+    @include proxima-nova-bold;
   }
 
   h2 {
     font-size: 18px;
     margin-bottom: 10px;
     line-height: 20px;
+    @include proxima-nova-bold;
   }
 
   h3 {
